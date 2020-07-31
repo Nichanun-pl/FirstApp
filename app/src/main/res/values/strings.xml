@@ -17,8 +17,11 @@
 
     <string name="bio">Nichanun Ploycharoen
     \n\nNun
-    \n\nI’m 20 years old. My birthday is the 6th of January 2000.
-    \n\nMy motto is
+    \n\nI’m 20 years old.
+    \n\nMy birthday is the 6th of January 2000.
+    \n\n
+    \n\nMy motto
     \n\n"The future depends on what we do in the present"</string>
     <string name="mail">nichanun.pl@rmuti.ac.th</string>
+    <string name="A">61162110055-2</string>
 </resources>

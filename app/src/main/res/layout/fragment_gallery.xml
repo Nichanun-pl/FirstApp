@@ -26,11 +26,13 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="387dp"
-        android:layout_height="173dp"
-        android:layout_marginTop="300dp"
+        android:layout_width="446dp"
+        android:layout_height="281dp"
+        android:layout_marginTop="400dp"
+        android:fontFamily="@font/lekton"
         android:text="@string/bio"
         android:textAlignment="center"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
