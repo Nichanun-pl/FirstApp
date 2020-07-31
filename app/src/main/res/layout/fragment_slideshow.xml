@@ -25,7 +25,7 @@
         android:id="@+id/imageView4"
         android:layout_width="132dp"
         android:layout_height="223dp"
-        android:layout_marginBottom="380dp"
+        android:layout_marginBottom="350dp"
         android:src="@drawable/contact_address_book_icon_146880"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,7 +37,7 @@
         android:layout_width="82dp"
         android:layout_height="215dp"
         android:layout_marginStart="40dp"
-        android:layout_marginBottom="170dp"
+        android:layout_marginBottom="68dp"
         android:src="@drawable/gmail_logo_icon_147283"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -49,35 +49,37 @@
         android:layout_marginStart="60dp"
         android:src="@drawable/line_logo_icon_147270"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="549dp" />
+        tools:layout_editor_absoluteY="552dp" />
 
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="44dp"
         android:layout_height="88dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginBottom="317dp"
+        android:layout_marginBottom="356dp"
         android:src="@drawable/house_icon_129523"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="135dp"
-        android:layout_marginBottom="324dp"
+        android:layout_marginBottom="264dp"
         android:fontFamily="@font/lekton"
         android:text="@string/home"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="135dp"
-        android:layout_marginBottom="255dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginBottom="156dp"
         android:fontFamily="@font/lekton"
         android:text="@string/mail"
         android:textSize="18sp"
@@ -88,8 +90,12 @@
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginBottom="96dp"
+        android:fontFamily="@font/lekton"
         android:text="@string/line"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="606dp" />
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
