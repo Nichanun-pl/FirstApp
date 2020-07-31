@@ -2,9 +2,9 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/text_slideshow"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/nn"
     tools:context=".ui.slideshow.SlideshowFragment">
 
     <TextView
@@ -33,23 +33,14 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="82dp"
-        android:layout_height="215dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginBottom="68dp"
-        android:src="@drawable/gmail_logo_icon_147283"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <ImageView
         android:id="@+id/imageView7"
         android:layout_width="42dp"
         android:layout_height="135dp"
         android:layout_marginStart="60dp"
+        android:layout_marginBottom="60dp"
         android:src="@drawable/line_logo_icon_147270"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="552dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView9"
@@ -66,10 +57,11 @@
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="264dp"
+        android:layout_marginBottom="252dp"
         android:fontFamily="@font/lekton"
         android:text="@string/home"
         android:textAlignment="center"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -79,7 +71,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="140dp"
-        android:layout_marginBottom="156dp"
+        android:layout_marginBottom="184dp"
         android:fontFamily="@font/lekton"
         android:text="@string/mail"
         android:textSize="18sp"
@@ -91,10 +83,29 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="140dp"
-        android:layout_marginBottom="96dp"
+        android:layout_marginBottom="116dp"
         android:fontFamily="@font/lekton"
         android:text="@string/line"
         android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/text_slideshow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/nn"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="45dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="132dp"
+        android:src="@drawable/ia"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
