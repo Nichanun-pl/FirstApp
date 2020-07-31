@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/abstrait_dessin_au_trait_coucher_de_soleil_bleu_et_beige_architecture_art_moderne_dcoration_d_appartement_art_mural_de_salon_grand_imprim_couleurs_ples_line_art_line_art_joe_madureira_illustrations_character_design_"
+    android:background="@color/nn"
     tools:context=".ui.home.HomeFragment">
 
     <TextView
@@ -21,24 +21,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="371dp"
-        android:layout_height="597dp"
-        android:layout_marginBottom="230dp"
-        android:src="@drawable/n"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="280dp"
+        android:layout_marginBottom="180dp"
         android:text="@string/nichanun"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="369dp"
+        android:layout_height="687dp"
+        android:layout_marginBottom="80dp"
+        android:src="@drawable/n"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="21dp" />
 </android.support.constraint.ConstraintLayout>
